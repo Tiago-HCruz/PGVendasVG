@@ -1,23 +1,22 @@
 #' @title Intervalo Bootstrap para vendas
 #'
 #' @description
-#' Função recebe um vetor com vendas por categorias e retorna o intervalo de bootstrap, para a média
-#' de vendas para cada uma das regiões de vendas.
+#' Função que recebe um quantidade de numero de reamostragem bootsrap e com as
+#' seguintes seguintes regiões do banco de dados, demostra os seus resultados em
+#' um data frame.
 
 #' @param n  numero de reamostragem bootstrap.
-#' @param amostra amostra de vendas de uma região, argumento deve ser um vetor.
 #'
-#' @returns Um vetor contendo um intervalo superior e inferior de 95% e a mediana.
+#' @returns Um data.frame contendo um intervalo superior e inferior de 95% e a mediana para
+#' cada região.
 #'
 #' @importFrom purrr map list_rbind
 #' @export
 #'
 #' @examples
-#' # O Banco de dados precisa estar classificado como 'data.frame',
-#' # isso é, esse é o motivo de usar a função "as.data.frame()"
-#' IBoots_Vendas(100, as.data.frame(Dados)$NA_Sales)
+#' IBoots_Vendas(100)
 #'
-IBoots_Vendas <- function(n, amostra){
+IBoots_Vendas <- function(n){
 
   ic <- function(n, amostra){
     tam_amostra <-length(amostra)

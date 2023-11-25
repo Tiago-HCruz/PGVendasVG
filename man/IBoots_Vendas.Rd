@@ -4,23 +4,21 @@
 \alias{IBoots_Vendas}
 \title{Intervalo Bootstrap para vendas}
 \usage{
-IBoots_Vendas(n, amostra)
+IBoots_Vendas(n)
 }
 \arguments{
 \item{n}{numero de reamostragem bootstrap.}
-
-\item{amostra}{amostra de vendas de uma região, argumento deve ser um vetor.}
 }
 \value{
-Um vetor contendo um intervalo superior e inferior de 95% e a mediana.
+Um data.frame contendo um intervalo superior e inferior de 95% e a mediana para
+cada região.
 }
 \description{
-Função recebe um vetor com vendas por categorias e retorna o intervalo de bootstrap, para a média
-de vendas para cada uma das regiões de vendas.
+Função que recebe um quantidade de numero de reamostragem bootsrap e com as
+seguintes seguintes regiões do banco de dados, demostra os seus resultados em
+um data frame.
 }
 \examples{
-# O Banco de dados precisa estar classificado como 'data.frame',
-# isso é, esse é o motivo de usar a função "as.data.frame()"
-IBoots_Vendas(100, as.data.frame(Dados)$NA_Sales)
+IBoots_Vendas(100)
 
 }
