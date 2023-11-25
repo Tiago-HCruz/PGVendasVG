@@ -15,7 +15,7 @@ cada região.
 }
 \description{
 Função que recebe um quantidade de numero de reamostragem bootsrap e com as
-seguintes seguintes regiões do banco de dados, demostra os seus resultados em
+seguintes regiões do banco de dados, demostra os seus resultados em
 um data frame.
 }
 \examples{
