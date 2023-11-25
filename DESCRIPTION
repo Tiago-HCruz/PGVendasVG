@@ -1,6 +1,6 @@
 Package: PGVendasVG
 Type: Package
-Title: Uma breve análisa do banco de dados "vendas de video games".
+Title: Uma breve análise do banco de dados "vendas de video games".
 Version: 0.1.0
 Author@R: c(
     person("João", "RA199910", email = "j199910@dac.unicamp.br", role = c("aut", "cre")),
