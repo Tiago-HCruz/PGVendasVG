@@ -8,3 +8,5 @@ devtools::install_github("Tiago-HCruz/PGVendasVG")
 Caso precise utilizar "force = TRUE", segue o examplo:
 
 devtools::install_github("Tiago-HCruz/PGVendasVG", force = TRUE)
+
+Obs.: Esse pacote foi utilizado no dashboard Vendas de Jogos que é dos mesmo criadores desse pacote.
