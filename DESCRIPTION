@@ -3,10 +3,10 @@ Type: Package
 Title: Uma breve análise do banco de dados "vendas de video games".
 Version: 0.1.0
 Author@R: c(
-    person("João", "RA199910", email = "j199910@dac.unicamp.br", role = c("aut", "cre")),
-    person("Ricardo", "RA243887", email = "r243887@dac.unicamp.br", role = c("aut", "cre")),
-    person("Samuel", "RA193819", email = "s193819@dac.unicamp.br", role = c("aut", "cre")),
-    person("Tiago", "RA206333", email = "t206333@dac.unicamp.br", role = c("aut", "cre"))
+    person("João", email = "j199910@dac.unicamp.br", role = c("aut", "cre")),
+    person("Ricardo",  email = "r243887@dac.unicamp.br", role = c("aut", "cre")),
+    person("Samuel", email = "s193819@dac.unicamp.br", role = c("aut", "cre")),
+    person("Tiago", email = "tihendacruz@gmail.com", role = c("aut", "cre"))
     )
 Description: Com as funções dada do pacote, possibilita uma análise dos dados com
             disponibilidade de elaborar gráfico de séries de Vendas de jogos por 
